@@ -53,7 +53,7 @@ function DoughnutChart(props) {
         align: "right",
         position: "right",
         labels: {
-          color: "#000",
+          color: "#222",
         },
       },
       tooltop: {

@@ -83,11 +83,14 @@ function App(props) {
   const handleValidation = () => {
     const totalErr = {};
 
-    if (inputs.type === "") return (totalErr.type = "Select Type");
-    if (inputs.date.trim() === "") return (totalErr.date = "Select Date");
+    if (inputs.type === "")
+      return (totalErr.type = " Transaktionstyp auswählen");
+    if (inputs.date.trim() === "")
+      return (totalErr.date = "Bitte Datum auswählen");
     if (inputs.category.trim() === "")
-      return (totalErr.category = "Select Category");
-    if (inputs.amount.trim() === "") return (totalErr.amount = "Enter amount");
+      return (totalErr.category = "Kategorie auswählen");
+    if (inputs.amount.trim() === "")
+      return (totalErr.amount = "Betrag eingeben");
 
     return Object.keys(totalErr).length === 0 ? null : totalErr;
   };

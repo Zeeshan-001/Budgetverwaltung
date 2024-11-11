@@ -17,10 +17,15 @@ body {
 }
 
 .container {
-  width: 100vw;
-  // height: 100vh;
-  background: #e0e1e3;
-
   display: grid;
   grid-template-columns: 3fr 1fr;
+
+  @media screen and (max-width: 1300px) {
+    & {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      height: 100vh;
+    }
+  }
 }

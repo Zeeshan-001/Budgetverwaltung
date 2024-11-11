@@ -19,7 +19,6 @@ Chart.register(
 );
 
 const LinearChart = () => {
-  // Data for the linear chart
   const data = {
     labels: [
       "Januar",
@@ -55,7 +54,7 @@ const LinearChart = () => {
         pointHoverBorderWidth: 2,
         pointRadius: 2,
         pointHitRadius: 1,
-        data: [50, 60, 70, 80, 60, 40, 20],
+        data: [800, 720, 700, 800, 790, 785, 730, 746, 801, 715],
       },
     ],
   };

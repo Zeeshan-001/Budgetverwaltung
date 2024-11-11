@@ -154,9 +154,9 @@
     li {
       z-index: 999999;
       cursor: pointer;
-      font-size: 1.4rem;
-      letter-spacing: 2px;
-      padding: 1rem 1rem;
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+      padding: 1.2rem;
       text-transform: capitalize;
       border-bottom: 1px dotted $color-primary;
       @include flex(1.4rem);
@@ -166,7 +166,7 @@
       }
 
       img {
-        max-height: 2.8rem;
+        max-height: 2rem;
       }
     }
   }
@@ -180,11 +180,11 @@
 
 .error {
   text-align: center;
-  letter-spacing: 2px;
-  font-weight: 400;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: $color-expense;
   font-family: $font-primary;
-  font-size: 1.4rem;
-  padding: 0.4rem;
+  font-size: 1.2rem;
+  padding-bottom: 3px;
   text-transform: capitalize;
-  background-color: $color-expense;
 }
