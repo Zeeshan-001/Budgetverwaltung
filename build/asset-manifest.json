@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8bcd868d.css",
+    "main.js": "/static/js/main.5b50b8b1.js",
+    "static/js/787.c4271f98.chunk.js": "/static/js/787.c4271f98.chunk.js",
+    "static/media/kids.svg": "/static/media/kids.05484981cf6a4e52a48151eb38623684.svg",
+    "static/media/eating.svg": "/static/media/eating.94930a7a912bbd05f50883e021d78b76.svg",
+    "index.html": "/index.html",
+    "static/media/savings.svg": "/static/media/savings.42b04c19922f617f0d25d0a0b6d48691.svg",
+    "static/media/electricity.svg": "/static/media/electricity.c3c052841e116740ac62c1bab8f9a06e.svg",
+    "static/media/car.svg": "/static/media/car.59a00df1257ddbf9e34ff14c7a427a54.svg",
+    "static/media/shopping.svg": "/static/media/shopping.cd2b49ef5499fd3da4ff4917638a92cc.svg",
+    "static/media/luggage.svg": "/static/media/luggage.eaa6e6ab5be700410d193cd12967b3d3.svg",
+    "static/media/petrol.svg": "/static/media/petrol.1b1e5bad3c78e62b6f1d2d5798e0c761.svg",
+    "static/media/mobile.svg": "/static/media/mobile.a576b6b67974b05c08c8b65480fd6214.svg",
+    "static/media/sport.svg": "/static/media/sport.56fb538df2d6f83077b2e5959e9d1b3e.svg",
+    "static/media/wifi.svg": "/static/media/wifi.faa4f82378971d30541af1d54c21a220.svg",
+    "static/media/wallet.svg": "/static/media/wallet.9050411e389289873a7def840c615e4c.svg",
+    "static/media/house.svg": "/static/media/house.3ccea68d38dbc5d3b12d8c89137337cf.svg",
+    "static/media/travel.svg": "/static/media/travel.2c12cf41ce0d2bc459337a2b0fc96007.svg",
+    "static/media/generals.svg": "/static/media/generals.321dcf4ae29c16a702c670c713649d48.svg",
+    "main.8bcd868d.css.map": "/static/css/main.8bcd868d.css.map",
+    "main.5b50b8b1.js.map": "/static/js/main.5b50b8b1.js.map",
+    "787.c4271f98.chunk.js.map": "/static/js/787.c4271f98.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bcd868d.css",
+    "static/js/main.5b50b8b1.js"
+  ]
+}
