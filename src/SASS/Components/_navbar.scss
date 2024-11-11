@@ -1,0 +1,51 @@
+.navbar {
+  width: 100%;
+  padding: 1.2rem 0 2.2rem 0;
+
+  @include flex(0);
+  justify-content: space-between;
+
+  &__logo {
+    font-size: 2.4rem;
+    letter-spacing: 2px;
+    color: $color-primary;
+
+    @include flex(00.6rem);
+
+    span {
+      font-size: 1.2rem;
+    }
+  }
+
+  &__items {
+    list-style: none;
+    @include flex(1rem);
+
+    text-transform: capitalize;
+  }
+
+  &__link {
+    @include flex(0.4rem);
+
+    &:link,
+    &:visited {
+      font-weight: 700;
+
+      border-radius: 5px;
+      color: $color-primary;
+      text-decoration: none;
+      padding: 0.6rem 0.8rem;
+      transition: all 0.3s ease-out;
+      border: 1px solid transparent;
+    }
+    &:active,
+    &:hover {
+      border: 1px solid $color-primary;
+    }
+  }
+
+  .active {
+    color: #fff;
+    background-color: $color-primary;
+  }
+}

@@ -1,0 +1,36 @@
+.categoriesContainer {
+  margin-top: 3rem;
+  .topCategories {
+    padding: 1rem 0;
+    display: flex;
+    gap: 0.6rem;
+  }
+
+  .categoryItem {
+    background-color: #fff;
+    padding: 1.4rem 4rem 1.4rem 1.2rem;
+
+    cursor: pointer;
+    border-radius: 0.8rem;
+    transition: all 0.3s ease-in-out;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    .catLabel {
+      font-size: 1.1rem;
+      text-transform: capitalize;
+    }
+    .catAmount {
+      color: $color-expense;
+      font-size: 1.6rem;
+      font-weight: 800;
+    }
+  }
+
+  img {
+    height: 2rem;
+    width: auto;
+  }
+}

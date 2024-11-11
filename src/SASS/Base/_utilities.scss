@@ -1,0 +1,76 @@
+.active {
+	border: 1px solid $color-primary;
+}
+
+//////////////////////////
+/// Margin Bottom ///////
+////////////////////////
+
+.mb-s {
+	margin-bottom: 0.5rem;
+}
+
+.mb-m {
+	margin-bottom: 1rem;
+}
+
+.mb-l {
+	margin-bottom: 1.5rem;
+}
+
+//////////////////////////
+/// Scroll Bar //////////
+////////////////////////
+
+/* width */
+::-webkit-scrollbar {
+	width: 0rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	cursor: pointer;
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+//////////////////////////
+/// Show //////////
+////////////////////////
+
+.show {
+	opacity: 1;
+	transform: scale(1);
+}
+
+//////////////////////////
+/// Hidden//////////
+////////////////////////
+.hidden {
+	opacity: 0;
+	transform: scale(0);
+}
+
+//////////////////////////
+/// Hidde Input Arrows///
+////////////////////////
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+	-moz-appearance: textfield;
+}

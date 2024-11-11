@@ -1,0 +1,28 @@
+.lineChart {
+  //   display: flex;
+
+  &__incoming {
+    // height: 2rem;
+    // background-color: rgba(75, 192, 192, 0.8);
+    // transition: all 0.3s ease-out;
+  }
+  &__outgoing {
+    // height: 2rem;
+    // background-color: rgba(255, 99, 132, 0.8);
+    // transition: all 0.3s ease-in-out;
+  }
+
+  title {
+    // padding: 4rem;
+  }
+}
+
+.doughnutChart {
+  //   position: relative;
+
+  //   .liveDate {
+  //     position: absolute;
+  //     right: 2rem;
+  //     bottom: 2rem;
+  //   }
+}

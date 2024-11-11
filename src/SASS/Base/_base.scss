@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.6;
+  font-weight: 400;
+  color: $color-primary;
+  font-family: $font-primary;
+}
+
+.container {
+  width: 100vw;
+  // height: 100vh;
+  background: #e0e1e3;
+
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
